@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagune — Maquis &amp; grill, Abidjan</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Lagune</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Open the menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav gap-lg-4">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero d-flex align-items-center text-center text-white" id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-3">Fish from the lagoon, straight onto the fire.</h1>
+            <p class="lead mt-3 mb-4">Open every evening in Treichville since 1998.</p>
+            <a href="#menu" class="btn btn-accent btn-lg px-4">See the menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="py-5" id="menu">
+      <div class="container py-lg-4">
+        <div class="text-center mb-5">
+          <h2>On the grill tonight</h2>
+          <p class="text-body-secondary mb-0">Prices in F CFA, service included.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbzSkMI_MNNlx9BkVWdDbMiY3hFGVYKgZJr1DfhXW7fGZE8GEtp0l7aGo&s=10" class="card-img-top" alt="Grilled tilapia on a plate">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h3 class="card-title h5 mb-0">Poisson braisé</h3>
+                  <span class="badge badge-accent">House classic</span>
+                </div>
+                <p class="card-text mt-2">Whole tilapia from the lagoon, grilled over wood and served with pepper sauce.
+                </p>
+                <p class="price mt-auto mb-0">5 500 F</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvSiboBhdHZ4-tkbcifxsUDUFGoRRoGedk_uzn3UFrK8W1fC62jrG7TH0&s=10" class="card-img-top" alt="Bowl of attiéké">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Attiéké garba</h3>
+                <p class="card-text">Cassava couscous with fried tuna, raw onion, tomato and fresh chilli.</p>
+                <p class="price mt-auto mb-0">2 500 F</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://www.cuisinedecheznous.net/_next/image/?url=https%3A%2F%2Fwww.cuisinedecheznous.net%2Fwp-content%2Fuploads%2Fsites%2F7%2F2026%2F02%2F1770556971484-recipe-13827-hd.jpg&w=1920&q=75" class="card-img-top" alt="Grilled chicken on a plate">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Poulet braisé</h3>
+                <p class="card-text">Half a chicken marinated overnight in garlic, ginger and soumbala.</p>
+                <p class="price mt-auto mb-0">6 000 F</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/ALLOCO_AUX_OEUFS_BOUILLIS.jpg/250px-ALLOCO_AUX_OEUFS_BOUILLIS.jpg?utm_source=fr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" class="card-img-top" alt="Fried plantain with tomato sauce">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Alloco</h3>
+                <p class="card-text">Sweet plantain fried until the edges caramelise, with a tomato and onion sauce.</p>
+                <p class="price mt-auto mb-0">1 500 F</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3NuR_fU2Gug3pUGn7I6ihNiB75zNlry-8nXjKUZqLcxUp4fHY8M0NLwc&s=10" class="card-img-top" alt="Chicken kedjenou in a clay pot">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2">
+                  <h3 class="card-title h5 mb-0">Kedjenou de poulet</h3>
+                  <span class="badge badge-hot">Spicy</span>
+                </div>
+                <p class="card-text mt-2">Chicken cooked slowly in a sealed clay pot with peppers, ginger and bay leaf.
+                </p>
+                <p class="price mt-auto mb-0">6 500 F</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <article class="card menu-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSynUdB84LnlLqaT0e_EjhOTkK8UB6p996OkOfcDKwNlVF1uiTrAsrzDMc&s=10" class="card-img-top" alt="Glass of hibiscus juice">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Bissap</h3>
+                <p class="card-text">Cold hibiscus infusion with mint and a little fresh ginger. Served by the carafe.
+                </p>
+                <p class="price mt-auto mb-0">1 000 F</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us : two columns built with the grid -->
+    <section class="about py-5" id="about">
+      <div class="container py-lg-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="images/about.svg" class="img-fluid rounded" alt="The terrace at sunset">
+          </div>
+          <div class="col-lg-6">
+            <h2>Twenty-eight years on the same corner</h2>
+            <p>Lagune started as four plastic tables and a grill on the pavement of Treichville. Marie-Jeanne, who still
+              runs the kitchen, cooked whatever her brother brought back from the lagoon that morning. The menu has not
+              really changed since.</p>
+            <p>We buy from the same three fishermen every day, we grill over wood rather than charcoal, and we close
+              when the fish runs out. The terrace seats sixty, the music starts at eight, and nobody is ever rushed
+              through a meal.</p>
+            <div class="row g-4 mt-2">
+              <div class="col-sm-4">
+                <p class="stat mb-0">1998</p>
+                <p class="text-body-secondary mb-0">First grill lit</p>
+              </div>
+              <div class="col-sm-4">
+                <p class="stat mb-0">60</p>
+                <p class="text-body-secondary mb-0">Seats on the terrace</p>
+              </div>
+              <div class="col-sm-4">
+                <p class="stat mb-0">18h</p>
+                <p class="text-body-secondary mb-0">Doors open, daily</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-5" id="contact">
+      <div class="container py-lg-4">
+        <div class="row g-5">
+
+          <div class="col-lg-5">
+            <h2>Book a table</h2>
+            <p class="text-body-secondary">Leave us a message and we call you back the same evening. For groups of more
+              than eight, please give us two days' notice.</p>
+            <ul class="list-unstyled contact-list mt-4">
+              <li><i class="bi bi-geo-alt"></i> Rue 12, Treichville, Abidjan</li>
+              <li><i class="bi bi-telephone"></i> +225 27 21 00 00</li>
+              <li><i class="bi bi-clock"></i> Tuesday to Sunday, 18h – 01h</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="contact-form p-4 p-md-5 rounded" action="#" method="post">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com"
+                    required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5"
+                    placeholder="How many of you, and which evening?" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-accent w-100 w-md-auto px-4">Send the request</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer text-white py-4">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; 2026 Lagune. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
