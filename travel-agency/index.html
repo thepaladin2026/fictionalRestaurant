@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmattan — Travel across West Africa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+          <i class="bi bi-compass"></i> Harmattan
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Open the menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav align-items-lg-center gap-lg-4">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="btn btn-sun btn-sm px-3" href="#contact">Plan a trip</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero d-flex align-items-center text-center text-white" id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-3 fw-bold">West Africa, at the pace it deserves.</h1>
+            <p class="lead mt-3 mb-4">Small groups, local guides and routes we have driven ourselves. Fourteen years
+              putting trips together from our office in Abidjan.</p>
+            <a href="#destinations" class="btn btn-sun btn-lg px-4">Find your destination</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="py-5" id="destinations">
+      <div class="container py-lg-4">
+        <div class="text-center mb-5">
+          <h2>Where we go</h2>
+          <p class="text-body-secondary mb-0">Three routes we run all year. Departures every two weeks.</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card destination-card h-100">
+              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/78/39/5e/caption.jpg?w=1200&h=-1&s=1" class="card-img-top" alt="Beach and palm trees at Assinie">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                  <h3 class="card-title h5 mb-0">Assinie, Côte d'Ivoire</h3>
+                  <span class="badge badge-sun">3 days</span>
+                </div>
+                <p class="card-text">A sandbar between the Atlantic and the lagoon. Pirogue crossings at dawn, grilled
+                  fish at noon, and nothing much to do in between.</p>
+                <a href="#" class="btn btn-outline-night mt-auto align-self-start">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card destination-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAnoW3Btk7RzbY51K7hMXUJx6SQog5k8PaFlcP3Hl5w&s=10" class="card-img-top" alt="Green mountains and a waterfall near Man">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                  <h3 class="card-title h5 mb-0">Man, Côte d'Ivoire</h3>
+                  <span class="badge badge-sun">5 days</span>
+                </div>
+                <p class="card-text">The green hills of the west: waterfalls, the liana bridges of the Dan country, and
+                  markets that start before sunrise.</p>
+                <a href="#" class="btn btn-outline-night mt-auto align-self-start">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card destination-card h-100">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_5pSkTvpT7RqDRAJ_IyAGxcJ8ESSgh-dYMeyoqaLXw&s=10" class="card-img-top" alt="Sand dunes in the Adrar">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                  <h3 class="card-title h5 mb-0">Adrar, Mauritania</h3>
+                  <span class="badge badge-sun">8 days</span>
+                </div>
+                <p class="card-text">Dunes, date palm oases and the library towns of Chinguetti, where manuscripts have
+                  been kept by the same families for centuries.</p>
+                <a href="#" class="btn btn-outline-night mt-auto align-self-start">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Tours : Bootstrap accordion -->
+    <section class="tours py-5" id="tours">
+      <div class="container py-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="text-center mb-5">
+              <h2>Tour packages</h2>
+              <p class="text-body-secondary mb-0">Everything below includes transport, guides and accommodation.</p>
+            </div>
+
+            <div class="accordion" id="toursAccordion">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">
+                    Coast &amp; Lagoon — 4 days, from 245 000 F
+                  </button>
+                </h3>
+                <div id="tour1" class="accordion-collapse collapse show" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Abidjan, Grand-Bassam and Assinie by road and pirogue. Two nights on the sandbar, one in the old
+                      colonial quarter, and an afternoon with the weavers of Bassam.</p>
+                    <a href="#" class="link-details">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour2">
+                    Highlands &amp; Waterfalls — 6 days, from 380 000 F
+                  </button>
+                </h3>
+                <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>West towards Man. Three guided walks, the Cascade de Man, the liana bridges, and two nights in a
+                      village guesthouse in the Dan hills. Moderate walking every day.</p>
+                    <a href="#" class="link-details">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour3">
+                    Desert Crossing — 9 days, from 690 000 F
+                  </button>
+                </h3>
+                <div id="tour3" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Atar, Chinguetti and the Adrar plateau. Four nights under canvas, a two-day camel stage, and the
+                      manuscript libraries. Runs from November to February only.</p>
+                    <a href="#" class="link-details">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour4">
+                    Cities &amp; Markets — 5 days, from 310 000 F
+                  </button>
+                </h3>
+                <div id="tour4" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                  <div class="accordion-body">
+                    <p>Abidjan, Bouaké and Korhogo. Textile workshops, the Senufo painters of Fakaha, and a cooking
+                      afternoon in Treichville. The easiest of our routes, good for a first trip.</p>
+                    <a href="#" class="link-details">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="contact">
+      <div class="container py-lg-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center mb-5">
+              <h2>Tell us where you want to go</h2>
+              <p class="text-body-secondary mb-0">We answer within one working day, with a route and a real price.</p>
+            </div>
+
+            <form class="contact-form p-4 p-md-5 rounded" action="#" method="post">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com"
+                    required>
+                </div>
+                <div class="col-12">
+                  <label for="destination" class="form-label">Destination of interest</label>
+                  <select class="form-select" id="destination" name="destination" required>
+                    <option value="" selected disabled>Choose a destination</option>
+                    <option>Assinie, Côte d'Ivoire</option>
+                    <option>Man, Côte d'Ivoire</option>
+                    <option>Adrar, Mauritania</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5"
+                    placeholder="How many of you, which dates, and what you would like to see" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-sun px-4">Send the request</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer text-white py-4">
+    <div class="container">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">&copy; 2026 Harmattan. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3 fs-5">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
