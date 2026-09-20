@@ -1,4 +1,4 @@
-/* Variables */
+/* Variables I declared */
 :root {
   --lagoon: #0c3234;
   --lagoon-dark: #08282a;
@@ -8,7 +8,7 @@
   --line: #e0ded4;
 }
 
-/* Bootstrap theme overrides */
+
 body {
   --bs-body-font-family: "Karla", Arial, sans-serif;
   --bs-body-color: var(--ink);
@@ -36,7 +36,7 @@ html {
   scroll-padding-top: 80px;
 }
 
-/* Accent button, used for both calls to action */
+
 .btn-accent {
   --bs-btn-bg: var(--gold);
   --bs-btn-border-color: var(--gold);
@@ -50,7 +50,7 @@ html {
   --bs-btn-border-radius: 3px;
 }
 
-/* Header */
+
 .navbar {
   background-color: var(--lagoon);
   --bs-navbar-brand-font-size: 30px;
@@ -68,7 +68,7 @@ html {
   box-shadow: none;
 }
 
-/* Hero : background image with a dark overlay so the text stays readable */
+
 .hero {
   min-height: 78vh;
   background-image: linear-gradient(rgba(8, 40, 42, 0.55), rgba(8, 40, 42, 0.68)), url("images/hero.svg");
@@ -87,7 +87,7 @@ html {
   text-shadow: 0 2px 10px rgba(8, 40, 42, 0.55);
 }
 
-/* Menu */
+
 .menu-card {
   --bs-card-border-color: var(--line);
   --bs-card-border-radius: 3px;
@@ -129,7 +129,7 @@ html {
   color: #fff;
 }
 
-/* About Us */
+/* for the About Us section */
 .about {
   background-color: #eceae0;
 }
@@ -176,7 +176,7 @@ html {
   box-shadow: none;
 }
 
-/* Footer */
+/* the Footer */
 .site-footer {
   background-color: var(--lagoon-dark);
 }
@@ -189,7 +189,7 @@ html {
   color: var(--gold);
 }
 
-/* Tablet */
+/* Tablett */
 @media (max-width: 991px) {
   .navbar-collapse {
     padding-top: 14px;
@@ -208,7 +208,7 @@ html {
   }
 }
 
-/* Mobile */
+/* pour les Mobile */
 @media (max-width: 767px) {
   .hero h1 {
     font-size: 32px;
@@ -223,7 +223,6 @@ html {
   }
 }
 
-/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
 
   html {
